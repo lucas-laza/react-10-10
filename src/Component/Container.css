@@ -1,0 +1,16 @@
+/* Container.css */
+
+.container {
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.container.light {
+  background-color: white;
+  color: black;
+}
+
+.container.dark {
+  background-color: black;
+  color: white;
+}
